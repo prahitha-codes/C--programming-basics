@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+{
+  int a,b;
+  printf("Enter two numbers:");
+  scanf("%d %d ",&a,&b);
+  if (a>b)
+    printf("%d is larger than %d",a,b);
+  else
+    printf("%d is larger than %d",b,a);
+}
